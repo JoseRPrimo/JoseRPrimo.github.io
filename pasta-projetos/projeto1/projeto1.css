@@ -1,0 +1,146 @@
+body{
+    font-family: arial, sans-serif;
+    background-color: #ccc;
+    margin: 0;
+}
+.banner{
+    background-image: url(imagens1/bg-3.jpg);
+    height: 700px;
+    background-position: right center;
+    background-size: cover;
+    justify-content: center;
+    margin-top: -15px;
+    align-items: center;
+    display: flex;
+}
+
+.banner-content h1{
+    text-align: center;
+    color: white;
+    /* margin-top: 150px; */
+    font-size: 56px;
+    text-shadow: 3px 3px 2px #333;
+}
+.banner-content p{
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.705);
+    width: 70%;
+    padding: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: white solid 3px;
+    text-align: center;
+    font-size: 20px;
+    margin: auto;
+    text-shadow: 3px 3px 2px #333;
+}
+
+main{
+    width: min-content;
+    margin: auto;
+}
+.content-section{
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    height: auto;
+}
+
+.content1{
+    justify-content: center;
+
+}
+
+.card img{
+    margin-right: 9px;
+    margin-left: 9px;
+    margin-top: 10px;
+    margin-bottom: -20px;
+    justify-content: center;
+    height: 215px;
+}
+
+.card p{
+    background-color: rgb(59, 59, 59);
+    margin-right: 9px;
+    
+    margin-left: 9px;
+    color: white;
+    height: 33px;
+    padding: 10px;
+    align-items: center;
+    text-transform: uppercase;
+    display: flex;
+    
+}
+
+
+
+article{
+    /* margin-top: -18px; */
+    width: 100%;
+}
+
+article header{
+    background-color: rgb(233, 232, 232);
+    width: 99%;
+    border-bottom: gray 1px solid;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    padding-left: 10px;
+}
+
+footer{
+    margin-top: 15px;
+    color: white;
+    background-color: gray;
+    text-align: center;
+    padding: 20px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: 15px;
+    width: min-content;
+    margin-bottom: 575px;
+    text-transform: uppercase;
+    color: white;
+
+}
+
+li{
+    width: 80px;
+
+}
+a{
+    background-color: rgba(128, 128, 128, 0.267);
+    margin-right: 15px;
+    padding: 10px;
+    border: white 2px solid;
+    border-radius: 3px;
+    
+}
+
+a:hover{
+    background-color: rgba(58, 58, 58, 0.267);
+}
+
+nav{
+    width: min-content;
+    position: absolute;
+    margin-left: 70%;
+    border-right: rgba(0, 0, 0, 0) 17px solid;
+
+
+}
+
+#button-2{
+    margin-right: 8px;
+}

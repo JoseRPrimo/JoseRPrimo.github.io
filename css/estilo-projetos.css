@@ -5,6 +5,7 @@ body{
     color: #666;
     font-family: 'Open Sans', arial, helvetica, sans-serif;
     line-height: 1.7;
+    
 }
 
 .main-header-sombreamento{
@@ -57,13 +58,13 @@ main{
     width: 61%;
     position: fixed;
     right: 0;
-    margin-bott
+    color: rgba(5, 5, 5, 0.63);
 }
 
 .container{
     position: relative;
     top: 195px;
-    left: 250px;
+    left: 230px;
 }
 
 a:visited{
