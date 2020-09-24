@@ -136,6 +136,7 @@ body{
     margin-right: 50px;
     margin-bottom: 50px;
     border-radius: 15px;
+    padding: 20px;
     
 }
 
@@ -178,7 +179,9 @@ a button{
     text-transform: uppercase;
     color: white;
 }
-
+a button:hover{
+    background-color: #5deec5;
+}
 #email{
     position: relative;
     bottom: 12px;

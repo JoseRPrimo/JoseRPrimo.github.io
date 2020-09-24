@@ -92,3 +92,7 @@ a button{
     bottom: 20px;
 }
 
+a button:hover{
+    background-color: #5deec5;
+}
+
