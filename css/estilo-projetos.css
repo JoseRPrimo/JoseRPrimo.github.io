@@ -62,10 +62,13 @@ main{
 
 .container{
     position: relative;
-    top: 210px;
+    top: 195px;
     left: 250px;
 }
 
-
+a:visited{
+    text-decoration: none;
+    color: black;
+}
 
 
