@@ -6,7 +6,7 @@ body{
     line-height: 1.7;
 }
 
-.eita{
+.main-header-sombreamento{
     background-image: url(../images/bg.jpg);
     background-position: 0% 75%;
     background-size: 142%;
@@ -28,6 +28,7 @@ body{
 .main-header img{
     border-radius: 50%;
     position: relative;
+    height: 23%;
     left: 296px;
     margin-top: 124px;
     margin-bottom: 20px;
@@ -84,82 +85,54 @@ body{
 
 .main-content-section{
     position: relative;
-    /* left: 50px; */
-    width: 90%;
-}
-
-#tit{
-    font-size: 30px;
-}
-
-.works{
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
+    width: 90%;
+    line-height: 0;
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 
-#go-portfolio{
-    position: relative;
-    /* left: 50px; */
-    padding: 13px 20px 13px 20px;
-    background-color: #5ddeb9;
-    border-color: transparent;
-    margin-bottom: 60px;
-    border-radius: 6px;
-    color: white;
+
+
+#name{
+    font-size: 30px;
+    font-weight: 400;
+    
 }
-.card-row{
+
+#informations{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.informations-row{
+    display: flex;
     display: flex;
     flex-direction: row;
     width: 100%;
-    /* justify-content: center; */
-    /* margin-bottom: 15px; */
+    justify-content: center;
 }
 
-.card-row img{
-    display: flex;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    /* margin-left: 30px; */
-    margin-right: 60px;
-    width: 380px;
-    border-radius: 25px;
-    border: none;
+#informations article{
+
+    width: 45%;
+    background-color: rgba(37, 37, 37, 0.178);
+    color: rgba(0, 0, 0, 0.767);
+    margin-right: 50px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    
 }
 
-.work-cards p{
-    position: relative;
-    /* left: 30px; */
+#knowledge{
+    line-height: 15px;
 }
 
-/* form{
-    display: flex;
-    flex-direction: row;;
-} */
-
-#a{
-    display: flex;
-    flex-direction: row;
+#knowledge h3{
+    margin-top: 35px;
+    margin-bottom: 39px;
 }
 
-/* input, label, textarea, select{
-    display: inline-block;
-    width: 100%;
-    box-sizing: border-box;
-}
-input, textarea, select{
-    background: #ccc;
-    padding: 15px;
-    border-radius: 5px;
-    border: 3px solid transparent;
-    margin-bottom: 15px;
-} */
-
-#gambiarra{
-    display: flex;
-    flex-direction: row;
-}
-
-.gamb-form{
-    margin-right: 15px;
-}
