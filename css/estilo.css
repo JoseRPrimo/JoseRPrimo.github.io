@@ -63,11 +63,19 @@ body{
     
 }
 
-#link-linkedin{
-    margin-right: 50px;
+.link-contact{
+    position: relative;
+    bottom: 10px;
+    right: 20px;
     height: 50px;
-    margin-left: 30px;
-    
+    margin-left: 10px;
+}
+
+#link-github{
+    margin-left: 60px;
+    height: 49px;
+    position: relative;
+    bottom:4px;
 }
 
 #nome-end{
@@ -171,3 +179,7 @@ a button{
     color: white;
 }
 
+#email{
+    position: relative;
+    bottom: 6px;
+}
