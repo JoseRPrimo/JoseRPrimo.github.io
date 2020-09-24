@@ -75,7 +75,7 @@ body{
     margin-left: 60px;
     height: 49px;
     position: relative;
-    bottom:4px;
+    bottom:10px;
 }
 
 #nome-end{
@@ -181,5 +181,5 @@ a button{
 
 #email{
     position: relative;
-    bottom: 6px;
+    bottom: 12px;
 }
