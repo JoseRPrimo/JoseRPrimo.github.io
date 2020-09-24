@@ -63,7 +63,7 @@ main{
 
 .container{
     position: relative;
-    top: 195px;
+    top: 170px;
     left: 230px;
 }
 
@@ -72,4 +72,15 @@ a:visited{
     color: black;
 }
 
+a button{
+    background-color: #49bf9d;
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    color: white;
+}
 

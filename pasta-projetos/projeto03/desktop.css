@@ -78,3 +78,25 @@ footer{
     padding: 0.1%;
 }
 
+.visitar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.visitar button{
+    background-color: #49bf9d;
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    color: white;
+
+}
+
+.visitar a {
+    border: none;
+    background: none;
+}
