@@ -169,7 +169,7 @@ body{
 }
 
 a button{
-    background-color: #49bf9d;
+    background-color: black;
     border: none;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -180,7 +180,7 @@ a button{
     color: white;
 }
 a button:hover{
-    background-color: #5deec5;
+    background-color: rgb(37 37 37 / 39%);
 }
 #email{
     position: relative;
